@@ -206,6 +206,8 @@ transition: 0.3s;
 }
 
 .toggled-menus.active {
+opacity: 100%;
+transition: 0.3s;
 display: flex;
 align-items: 
 width: 100%;
