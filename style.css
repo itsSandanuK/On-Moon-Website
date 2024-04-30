@@ -180,11 +180,11 @@ margin-top: 10%;
 
 
 .about{
-opacity: 0;
+  display: none;
 }
 
 .contact{
-opacity: 0;
+display: none;
 }
 
 .hamburger{
