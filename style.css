@@ -14,14 +14,13 @@ box-sizing: border-box;
 }
 
 nav{
-width: 100%;
 display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 30px 100px;
 }
 
-nav .logo{
+.logo{
 zoom: 0.17;
 cursor: pointer;
 }
