@@ -179,6 +179,11 @@ display: none;
 
 .hamburger{
 display: block;
+padding-right:60px;
+}
+
+.logo{
+padding-right:100px;
 }
 
 .hamburger.active .bar:nth-child(2){
@@ -205,8 +210,8 @@ display: flex;
 align-items: 
 width: 100%;
 align-items: center;
-justify-content: space-between;
-padding: 175px 47px;
+justify-content: space-evenly;
+
 }
 
 .toggled-menus.active .about-toggle a{
@@ -216,12 +221,12 @@ text-decoration: none;
 font-size: 35px;
 }
 
+
 .toggled-menus.active .contact-toggle a{
 color: #000000;
 font-weight: 600;
 text-decoration: none;
 font-size: 35px;
-
 }
 
 }
