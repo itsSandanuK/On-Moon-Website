@@ -50,6 +50,16 @@ font-size: 68px;
 letter-spacing: 1px;
 }
 
+.headline-mini{
+margin-top: 20%;
+}
+
+.headline-mini p{
+text-align: center;
+font-size: 65px;
+letter-spacing: 1px;
+}
+
 .main-buttons{
 width: 100%;
 display: flex;
@@ -141,7 +151,12 @@ color: black;
 background-color: white;
 }
 
+.headline-mini{display:none;}
+
 @media only screen and (max-width: 768px) {
+
+.headline-mini{display:block;}
+.headline{display:none;}
 
 .main-buttons{
 width: 100%;
@@ -221,5 +236,3 @@ font-size: 35px;
 }
 
 }
-
-
